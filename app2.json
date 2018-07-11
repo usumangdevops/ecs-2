@@ -1,0 +1,16 @@
+
+[
+  {
+    "name": "first",
+    "image": "sorgerlab/omero-redis",
+    "cpu": 200,
+    "memory": 200,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 6379,
+        "hostPort": 6379
+      }
+    ]
+  }
+]
