@@ -1,0 +1,16 @@
+
+[
+  {
+    "name": "first",
+    "image": "labshare/hedwig-omero-web",
+    "cpu": 500,
+    "memory": 500,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 8000,
+        "hostPort": 8000
+      }
+    ]
+  }
+]
